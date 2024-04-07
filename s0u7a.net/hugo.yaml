@@ -16,7 +16,7 @@ minify:
 params:
   env: production # to enable google analytics, opengraph, twitter-cards and schema.
   title: "s0u7a.net | 日々を豊かに。"
-  description: "s0u7a.netは、皆さんの生活が少しでも豊かになるような情報やWebツールを提供していきます。"
+  description: "s0u7a.netは、皆さんの生活が少しでも豊かになるような情報やWebツールを提供していきます。日本のインターネットに未来を。"
   keywords: [ブログ,ポートフォリオ,プログラミング]
   author: s0u7a
   # author: ["Me", "You"] # multiple authors
@@ -40,6 +40,15 @@ params:
   hideSummary: false
   showtoc: false
   tocopen: false
+  homeInfoParams:
+    Title: ようこそ、s0u7a.netへ...
+    Content: s0u7a.netは、皆さんの生活が少しでも豊かになるような情報やWebツールを提供していきます。日本のインターネットに未来を。
+  socialIcons: # optional
+    - name: "<platform>"
+      url: "<link>"
+    - name: "<platform 2>"
+      url: "<link2>"
+
 
   assets:
     # disableHLJS: true # to disable highlight.js
@@ -59,8 +68,8 @@ params:
   socialIcons:
     - name: x
       url: "https://x.com/relateduser"
-    - name: stackoverflow
-      url: "https://stackoverflow.com"
+    - name: Discord
+      url: "https://discord.gg/XrZ5HGcyEv"
     - name: github
       url: "https://github.com/s0u7a/"
 
